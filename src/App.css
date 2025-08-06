@@ -1,26 +1,38 @@
 body {
   margin: 0;
-  color: #fff;
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  background-image: linear-gradient(to bottom, #020917, #101725);
+  font-family: Arial, sans-serif;
+  background-color: #0d0d0d;
+  color: #f1f1f1;
 }
 
-.content {
+a {
+  color: #00ccff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #111;
+  padding: 1rem 2rem;
   display: flex;
-  min-height: 100vh;
-  line-height: 1.1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  padding: 4rem 2rem;
   text-align: center;
-  flex-direction: column;
-  justify-content: center;
+  background-color: #1a1a1a;
 }
 
-.content h1 {
-  font-size: 3.6rem;
-  font-weight: 700;
+.section {
+  padding: 3rem 2rem;
+  border-top: 1px solid #333;
 }
 
-.content p {
-  font-size: 1.2rem;
-  font-weight: 400;
-  opacity: 0.5;
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #111;
+  color: #888;
 }
